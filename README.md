@@ -13,7 +13,7 @@ Steps
 
 http://server:puerto/business-central
 
-4.- Create a new project named cloudbanco-sales-rule
+4.- Create a new project named cloudbanco-sales-rules
 
 groupId: com.cloudbanco.reglas
 
@@ -21,7 +21,7 @@ artifactId: creditRules
 
 version: 1.0.0
 
-5.- Go to project settings and get git repository URL.  The URL must be ssh://localhost:8001/MySpace/cloudbanco-sales-rule
+5.- Go to project settings and get git repository URL.  The URL must be ssh://localhost:8001/MySpace/cloudbanco-sales-rules
 
 6.-SSH CONFIGURATION. This step is necesary to clone our project from Business Centralcentral
 
@@ -44,13 +44,13 @@ git clone https://github.com/lasalazarr/cloudbanco-sales-rules.git
 
 9.- Add a new git remote using the next command:
 
-`git remote add local ssh://wbadmin@localhost:8001/MySpace/cloudbanco-sales-rule`
+`git remote add local ssh://wbadmin@localhost:8001/MySpace/cloudbanco-sales-rules`
 
 Where: 
 
 `wbadmin` is the user name, and is the same used to login into Business Central
 
-`ssh://wbadmin@localhost:8001/MySpace/cloudbanco-sales-rule` is the project URL as defined in project properties in Business Central
+`ssh://wbadmin@localhost:8001/MySpace/cloudbanco-sales-rules` is the project URL as defined in project properties in Business Central
 
 `local` is the name of the new remote, and this name can be anything.
 
